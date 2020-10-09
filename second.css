@@ -1,0 +1,53 @@
+body 
+{
+	background-color: steelblue;
+    margin: 0;
+    padding: 0;
+}
+
+h3
+{
+	color: black;
+	position: relative;
+	left: 40%;
+	top: 110%;
+}
+h4
+{
+
+    color: black;
+	position: relative;
+	left: 35%;
+	top:110%;
+}
+a{
+	color: gold;
+    position: relative;
+    
+    left:60%
+
+}
+.slider{
+	width: 1000px;
+	height: 500px;
+	background: url("flowers.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	margin: 100px auto;
+	animation: slide 10s infinite;
+}
+@keyframes slide{
+	75%{
+		background: url("trees.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		
+}
+100%{	    
+background: url("waterfall.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+}

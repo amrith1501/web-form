@@ -1,0 +1,42 @@
+body
+{
+    background-image: url("websky.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+   color: #000000;
+   position:relative;
+   left:39%;
+   font-size: 30px;
+   }
+
+form{
+     margin: 20px auto;
+     width:  500px;
+     color: #000000;
+     background-color: #038cfc;
+    }
+input{
+      padding: 10px;
+      font-size: inherit;
+      }  
+input[type="text"]
+{
+display: block;
+margin-bottom: 25px;
+width: 100%;
+border: 2px solid black;
+}
+input[type="date"]
+{
+display: block;
+margin-bottom: 25px;
+width: 100%;
+border: 2px solid black;
+}
+input[type="submit"]
+{
+background: #30f70c;
+color: black;
+}
